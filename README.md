@@ -5,13 +5,13 @@ La aplicación se ejecutará en http://localhost:8080.
 
 ## Endpoints
 ### GET /data/seccion: Obtiene información de una sección específica (sección puede ser home, about, education, exp, portfolio o contact).
-### POST /email: Envía un mensaje de contacto. Debe incluir los siguientes encabezados en la solicitud:
+### POST /email: Envía un mensaje de contacto. Debe incluir los siguientes encabezados en la solicitud
 name: Nombre del remitente.
 email: Correo electrónico del remitente.
 body: Cuerpo del mensaje.
 
 ## Ejemplo de Uso
-### Obtener información de la sección "about":
+### Obtener información de la sección "about"
 curl http://localhost:8080/data/about
-### Enviar un mensaje de contacto:
+### Enviar un mensaje de contacto
 curl -X POST http://localhost:8080/email -H "name: Tu Nombre" -H "email: tu@email.com" -H "body: Mensaje de prueba"
