@@ -11,7 +11,7 @@ email: Correo electrónico del remitente.
 body: Cuerpo del mensaje.
 
 ## Ejemplo de Uso
-###Obtener información de la sección "about":
+### Obtener información de la sección "about":
 curl http://localhost:8080/data/about
-###Enviar un mensaje de contacto:
+### Enviar un mensaje de contacto:
 curl -X POST http://localhost:8080/email -H "name: Tu Nombre" -H "email: tu@email.com" -H "body: Mensaje de prueba"
