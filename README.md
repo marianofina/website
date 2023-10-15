@@ -1,6 +1,6 @@
 # website
 Backend para Sitio Personal
-Este es el backend de un sitio personal que proporciona información personal desde un archivo JSON. Además, ofrece la capacidad de recibir mensajes de contacto a través de una solicitud POST a la URL /email, donde el mensaje se guarda una DB MariaDB y en caso de estar ok se envía un correo a la dirección proporcionada desde una cuenta configurada en porperties.
+Este es el backend de un sitio personal que proporciona información personal desde un archivo JSON. Además, ofrece la capacidad de recibir mensajes de contacto a través de una solicitud POST a la URL /email, donde el mensaje se guarda una DB MariaDB y en caso de estar ok se envía un correo a la dirección proporcionada desde una cuenta configurada en properties.
 La aplicación se ejecutará en http://localhost:8080.
 
 ## Endpoints
